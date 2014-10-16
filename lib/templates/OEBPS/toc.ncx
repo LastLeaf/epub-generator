@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta content="urn:uuid:{{uuid}}" name="dtb:uid"/>
+		<meta content="1" name="dtb:depth"/>
+		<meta content="0" name="dtb:totalPageCount"/>
+		<meta content="0" name="dtb:maxPageNumber"/>
+	</head>
+	<docTitle>
+		<text>{{title}}</text>
+	</docTitle>
+	<navMap>
+		{{#each files}}{{#if spine}}
+		<navPoint id="navPoint-{{@key}}" playOrder="{{@key}}">
+			<navLabel>
+				<text>{{title}}</text>
+			</navLabel>
+			<content src="{{path}}"/>
+		</navPoint>
+		{{/if}}{{/each}}
+	</navMap>
+</ncx>
