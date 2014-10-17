@@ -8,7 +8,8 @@
 	"dependencies": {
 		"node-uuid": "^1.4.1",
 		"handlebars": "^2.0.0",
-		"zip-stream": "~0.4.1"
+		"zip-stream": "~0.4.1",
+		"mime": "^1.2.11"
 	},
 	"author": "LastLeaf <bqfu@163.com> http://lastleaf.me",
 	"contributors": []
