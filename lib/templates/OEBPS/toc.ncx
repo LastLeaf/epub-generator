@@ -11,7 +11,7 @@
 		<text>{{title}}</text>
 	</docTitle>
 	<navMap>
-		{{#each files}}{{#if spine}}
+		{{#each files}}{{#if toc}}
 		<navPoint id="navPoint-{{@key}}" playOrder="{{@key}}">
 			<navLabel>
 				<text>{{title}}</text>

@@ -1,0 +1,15 @@
+{
+	"name": "epub-generator",
+	"version": "0.0.1",
+	"engines": { "node": ">=0.10.0" },
+	"homepage": "https://github.com/LastLeaf/epub-generator",
+	"repository": { "type": "git", "url": "https://github.com/LastLeaf/epub-generator.git" },
+	"License": "MIT",
+	"dependencies": {
+		"node-uuid": "^1.4.1",
+		"handlebars": "^2.0.0",
+		"zip-stream": "~0.4.1"
+	},
+	"author": "LastLeaf <bqfu@163.com> http://lastleaf.me",
+	"contributors": []
+}

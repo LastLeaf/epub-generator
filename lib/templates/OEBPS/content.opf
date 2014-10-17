@@ -7,10 +7,10 @@
 	</metadata>
 	<manifest>
 		<item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
-		{{#each files}}<item href="{{path}}" id="{{id}}" media-type="{{mimetype}}" />{{/each}}
+		{{#each files}}<item href="{{path}}" id="{{path}}" media-type="{{mimetype}}" />{{/each}}
 	</manifest>
 	<spine toc="ncx">
-		{{#each files}}{{#if spine}}<itemref idref="{{id}}" />{{/if}}{{/each}}
+		{{#each files}}{{#if toc}}<itemref idref="{{path}}" />{{/if}}{{/each}}
 	</spine>
 	<guide>
 		{{#each reference}}<reference href="{{href}}" title="{{title}}" type="{{type}}" />{{/each}}
