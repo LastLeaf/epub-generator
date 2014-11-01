@@ -12,7 +12,7 @@
 	</docTitle>
 	<navMap>
 		{{#each files}}{{#if toc}}
-		<navPoint id="navPoint-{{@key}}" playOrder="{{@key}}">
+		<navPoint id="navPoint-{{@index}}" playOrder="{{@index}}">
 			<navLabel>
 				<text>{{title}}</text>
 			</navLabel>
