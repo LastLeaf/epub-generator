@@ -1,10 +1,6 @@
 # epub-generator #
 
-Generate EPUB books with simple API in Node.js.
-
-# development status #
-
-Early development, NOT stable at all.
+Generate simple EPUB books with simple API in Node.js.
 
 # API #
 
@@ -12,7 +8,7 @@ Early development, NOT stable at all.
 
 ## EpubGenerator( options ) ##
 
-Create and return an epub generator. The generator is also a stream. You can pipe it to another stream.
+Create and return an `generator`. The generator is also a stream. You can pipe it to another stream (e.g. the stream returned by `fs.createWriteStream`).
 You need to listen to writableStream's events to get the generation status, such as `drain`, `error`, `finish`, etc.
 
 Options (all optional):
