@@ -4,7 +4,7 @@
 	"engines": { "node": ">=0.10.0" },
 	"homepage": "https://github.com/LastLeaf/epub-generator",
 	"repository": { "type": "git", "url": "https://github.com/LastLeaf/epub-generator.git" },
-	"License": "MIT",
+	"license": "MIT",
 	"dependencies": {
 		"node-uuid": "^1.4.1",
 		"handlebars": "^2.0.0",
